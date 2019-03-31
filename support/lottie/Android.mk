@@ -18,7 +18,7 @@ SUPPORT_PATH_LOTTIE := support/lottie
 
 include $(CLEAR_VARS)
 LOCAL_USE_AAPT2 := true
-LOCAL_MODULE := aoscp-support-lottie
+LOCAL_MODULE := zen-support-lottie
 LOCAL_SDK_VERSION := current
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
